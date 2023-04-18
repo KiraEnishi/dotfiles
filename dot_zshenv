@@ -3,7 +3,7 @@
 # Just load Aliases and Functions
 # (only for Bash)
 
-export dotfiles=$HOME/.dotfiles
+export dotfiles=$HOME/.local/share/chezmoi
 export DOTFILES=$dotfiles
 
 if [[ -n $BASH ]] ; then
