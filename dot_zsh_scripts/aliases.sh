@@ -21,7 +21,7 @@ alias zshrc="$EDITOR $zshrc"
 alias lockscreen='pmset displaysleepnow'
 
 # Reload settings or hardware
-alias reload="source $zshrc"
+alias reload="source ~/.zshrc"
 alias reload-wifi='sudo iwlist wlp3s0 scan'
 alias reload-audio='sudo killall coreaudiod'
 alias reload-touchbar="sudo pkill TouchBarServer && sudo killall ControlStrip && sudo pkill NowPlayingTouchUI"
