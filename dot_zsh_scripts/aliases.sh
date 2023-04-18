@@ -47,3 +47,6 @@ alias vsc='open -a "Visual Studio Code"'
 
 # Make sudo work with aliases
 alias sudo='sudo '
+
+# Brew
+alias brew-dump="brew bundle dump --file=$DOTFILES/Brewfile"
