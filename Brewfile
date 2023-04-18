@@ -1,6 +1,8 @@
 tap "homebrew/bundle"
 brew "chezmoi"
 brew "git"
+brew "n"
 cask "1password"
 cask "google-chrome"
 cask "iterm2"
+cask "visual-studio-code"
