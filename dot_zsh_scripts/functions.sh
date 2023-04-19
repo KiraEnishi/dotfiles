@@ -43,6 +43,6 @@ memhogs() { ps wwaxm -o pid,stat,vsize,rss,time,command | head -10; }
 
 # Restart Wi-Fi for macOs
 restart-wifi() {
-  ifconfig en0 down;
-  ifconfig en0 up;
+  sudo ifconfig en0 down;
+  sudo ifconfig en0 up;
 }
