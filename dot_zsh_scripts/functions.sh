@@ -40,3 +40,9 @@ myps() { ps $@ -u $USER -o pid,%cpu,%mem,start,time,bsdtime,command ; }
 # Find CPU and Memory Hogs
 cpuhogs() { ps wwaxr -o pid,stat,%cpu,time,command | head -10 ;}
 memhogs() { ps wwaxm -o pid,stat,vsize,rss,time,command | head -10; }
+
+# Restart Wi-Fi for macOs
+restart-wifi() {
+  ifconfig en0 down;
+  ifconfig en0 up;
+}
