@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "chezmoi"
+brew "direnv"
 brew "git"
 brew "n"
 brew "neovim"
