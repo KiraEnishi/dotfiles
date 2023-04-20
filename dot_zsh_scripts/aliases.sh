@@ -13,6 +13,7 @@ alias dotfiles="cd $dotfiles"
 alias     crap="cd ~/crap"
 # alias     code="cd ~/code"
 alias  clients="cd ~/code/sruplex/clients"
+alias open-dotfiles="code $dotfiles"
 
 # Edit .zshrc file
 alias zshrc="$EDITOR $zshrc"
