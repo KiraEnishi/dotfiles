@@ -17,6 +17,7 @@ alias open-dotfiles="code $dotfiles"
 
 # Edit .zshrc file
 alias zshrc="$EDITOR $zshrc"
+alias localrc="$EDITOR $localrc"
 
 # Lock Screen
 alias lockscreen='pmset displaysleepnow'
