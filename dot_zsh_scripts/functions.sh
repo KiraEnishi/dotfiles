@@ -34,7 +34,9 @@ jcurl() {
 }
 
 # List all of current user's processes
-myps() { ps $@ -u $USER -o pid,%cpu,%mem,start,time,bsdtime,command ; }
+findProcessUsingPort() {
+  lsof -i tcp:$1
+}
 
 
 # Find CPU and Memory Hogs
