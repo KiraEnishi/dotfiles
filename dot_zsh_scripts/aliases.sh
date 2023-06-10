@@ -10,10 +10,9 @@ alias ll='ls -FG1'
 
 # Directories
 alias dotfiles="cd $dotfiles"
-alias     crap="cd ~/crap"
 # alias     code="cd ~/code"
-alias  clients="cd ~/code/sruplex/clients"
-alias open-dotfiles="code $dotfiles"
+alias clients="cd ~/code/sruplex/clients"
+alias code-dotfiles="code $dotfiles"
 
 # Edit .zshrc file
 alias zshrc="$EDITOR $zshrc"
