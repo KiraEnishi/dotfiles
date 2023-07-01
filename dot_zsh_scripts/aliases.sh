@@ -52,3 +52,8 @@ alias sudo='sudo '
 
 # Brew
 alias brew-dump="brew bundle dump --file=$DOTFILES/Brewfile --force"
+
+# Java
+alias j1.8='javahome 1.8'
+alias j11='javahome 11'
+alias j17='javahome 17'
