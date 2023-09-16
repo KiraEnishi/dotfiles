@@ -11,12 +11,12 @@ alias ll='ls -FG1'
 # Directories
 alias dotfiles="cd $dotfiles"
 # alias     code="cd ~/code"
-alias clients="cd ~/code/sruplex/clients"
-alias code-dotfiles="code $dotfiles"
+alias prjs="cd ~/Projects"
 
 # Edit .zshrc file
-alias zshrc="$EDITOR $zshrc"
-alias localrc="$EDITOR $localrc"
+alias edit-zshrc="$EDITOR $zshrc"
+alias edit-localrc="$EDITOR $localrc"
+alias edit-dotfiles="code $dotfiles"
 
 # Lock Screen
 alias lockscreen='pmset displaysleepnow'
