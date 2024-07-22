@@ -14,9 +14,9 @@ alias dotfiles="cd $dotfiles"
 alias prjs="cd ~/Projects"
 
 # Edit .zshrc file
-alias edit-zshrc="$EDITOR $zshrc"
-alias edit-localrc="$EDITOR $localrc"
-alias edit-dotfiles="code $dotfiles"
+alias code-zshrc="code $zshrc"
+alias code-localrc="code $localrc"
+alias code-dotfiles="code $dotfiles"
 
 # Lock Screen
 alias lockscreen='pmset displaysleepnow'

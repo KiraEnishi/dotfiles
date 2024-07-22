@@ -6,6 +6,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
+export PATH="/opt/homebrew/opt/mongodb-community@5.0/bin:$PATH"
 
 export dotfiles=$HOME/.local/share/chezmoi
 export DOTFILES=$dotfiles
@@ -102,8 +103,8 @@ fi
 
 
 # NVM Configs
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
 
 
 # RVM Configs
