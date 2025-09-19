@@ -54,7 +54,7 @@ fi
 
 
 # Zsh Settings
-plugins=(git sublime brew aws httpie npm vscode per-directory-history ng ansible)
+plugins=(git sublime brew aws httpie npm vscode per-directory-history ng ansible fzf)
 ZSH_THEME="powerlevel10k/powerlevel10k"
 COMPLETION_WAITING_DOTS="true"
 
