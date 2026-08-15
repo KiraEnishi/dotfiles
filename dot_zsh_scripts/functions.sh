@@ -60,6 +60,6 @@ javahome() {
 }
 
 deploy-prod() {
-  git push origin master:prod
+  git push origin master && git push origin master:prod
   # git checkout prod && git merge master && git push origin prod && git checkout master
 }
